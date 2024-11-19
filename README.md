@@ -1,7 +1,7 @@
-REQUESTING DATA
+A. REQUESTING DATA
 
 API Endpoints
-1. GET /flashcards
+GET /flashcards
 This endpoint returns all flashcards stored.
 
 Instructions:
@@ -30,8 +30,9 @@ Expected Response with Sample Data:
   }
 ]
 
-RECIEVING DATA
+B. RECIEVING DATA
 The DELETE request will remove a flashcard by its id.
+/flashcards/:id
 
 Instructions:
 MUST HAVE EXPRESS INSTALLED
@@ -50,3 +51,6 @@ If the flashcard with specified ID DNE:
 {
   "message": "Flashcard with ID 1 not found"
 }
+
+C.
+![UML](UML Diagram.png)
