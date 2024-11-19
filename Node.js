@@ -2,11 +2,11 @@ const express = require('express');
 const app = express();
 
 // Sample data: a list of flashcards (in a real application, you'd use a database)
-let flashcards = [
-  { id: 1, question: "What is 2 + 2?", answer: "4" },
-  { id: 2, question: "What is the capital of France?", answer: "Paris" },
-  { id: 3, question: "What is the largest planet?", answer: "Jupiter" }
-];
+//let flashcards = [
+//  { id: 1, question: "What is 2 + 2?", answer: "4" },
+//  { id: 2, question: "What is the capital of France?", answer: "Paris" },
+//  { id: 3, question: "What is the largest planet?", answer: "Jupiter" }
+//];
 
 // Middleware to parse JSON bodies for POST/DELETE requests
 app.use(express.json());
